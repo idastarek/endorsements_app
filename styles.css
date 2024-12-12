@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 90%; */
+}
+
+#kudos-container {
+    background-color: #FEFBE9;
+    text-align: center;
+    width: 100%;
+}
+
+#kudos-medal-img {
+    width: 20%;
+    /* border: 2px solid black; */
+    margin-top: 3rem; 
+}
+
+h1 {
+    font-family: "Agu Display", serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+#text-publish-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #60B5D6;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+#textarea {
+    /* border: 2px solid black; */
+    width: 70%;
+    /* height: 60%; */
+    margin: 1.6rem auto;
+}
+
+#publish-btn {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    background-color: #FCE06F;
+    width: 50%;
+}
+
+#endoresements-area {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9A9BC;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Agu Display", serif;
+    font-weight: 400;
+    font-size: 1.9rem;
+}
+
+p {
+    font-family: "Inter", serif;
+    font-weight: 300;
+}
+

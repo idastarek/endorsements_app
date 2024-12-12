@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <!-- linking fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Inter:opsz@14..32&display=swap" rel="stylesheet">
     <title>Kudos Hub</title>
 </head>
 <body>
     <!-- top part of the screen -->
-    <img src="../" alt="">
-    <h1>Kudos Hub</h1>
-    <textarea id="textarea" placeholder="Write your endorsement here"></textarea>
-    <button id="publish-btn">Publish</button>
-    <!-- posted endorsements area -->
-    <h2 id="endorsements-title">Endorsements</h2>
-    <div id="endorsements-list">
-        <p class="endorsement">Great job!</p>
-        <p class="endorsement">Fantastic!</p>
-        <p class="endorsement">Spectacular!</p>
+     <div id="main-container">
+        <div id="kudos-container">
+            <img id="kudos-medal-img" src="./images/kudos.png" alt="a golden medal with the word kudos">
+            <h1>Kudos Hub</h1>
+        </div>
+        <div id="text-publish-area">
+            <textarea id="textarea" placeholder="Write your endorsement here"></textarea>
+            <button id="publish-btn">Publish</button>
+        </div>
+        <!-- posted endorsements area -->
+         <div id="endoresements-area">
+            <h2 id="endorsements-title">Endorsements</h2>
+            <div id="endorsements-list">
+                <p class="endorsement">Great job!</p>
+                <p class="endorsement">Fantastic!</p>
+                <p class="endorsement">Spectacular!</p>
+            </div>
+         </div>
     </div>
     <script src="./script.js" type="module"></script>
 </body>
