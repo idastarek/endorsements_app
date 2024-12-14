@@ -21,8 +21,7 @@ html, body {
 }
 
 #kudos-medal-img {
-    width: 20%;
-    /* border: 2px solid black; */
+    width: 110px;
     margin-top: 3rem; 
 }
 
@@ -44,8 +43,8 @@ h1 {
 
 #textarea {
     /* border: 2px solid black; */
-    width: 70%;
-    /* height: 60%; */
+    width: 90%;
+    min-height: 70px;
     margin: 1.6rem auto;
 }
 
@@ -56,8 +55,10 @@ h1 {
     font-size: 1rem;
     font-family: "Inter", serif;
     font-weight: 400;
-    background-color: #FCE06F;
+    background-color: #FAD075;
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 #endoresements-area {
@@ -72,10 +73,23 @@ h2 {
     font-family: "Agu Display", serif;
     font-weight: 400;
     font-size: 1.9rem;
+    margin: 20px auto 10px auto;
+}
+
+#endorsements-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 p {
     font-family: "Inter", serif;
     font-weight: 300;
+    padding: 15px 20px;
+    width: 80%;
+    background-color: #A26E7B;
+    color: #FEFBE9;
+    border-radius: 3px;
 }
 
