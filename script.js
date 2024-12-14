@@ -17,6 +17,9 @@ const endorsementsListEl = document.getElementById("endorsements-list");
 publishBtn.addEventListener("click", function() {
     let textareaValue = textareaEl.value;
     push(endorsementsListInDB,textareaValue);
-    // clearTexareaEl();
+    clearTexareaEl();
 })
 
+function clearTexareaEl() {
+    textareaEl.value = "";
+}
