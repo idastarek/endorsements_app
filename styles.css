@@ -83,13 +83,34 @@ h2 {
     justify-content: flex-start;
 }
 
-p {
+.endorsement-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    width: 100vw;
+    width:80%;
+    background-color: #A26E7B;
+}
+
+.endorsement {
+    /* display: flex;
+    flex-wrap: wrap; */
     font-family: "Inter", serif;
     font-weight: 300;
-    padding: 15px 20px;
+    padding: 15px 20px 15px 100px;
     width: 80%;
-    background-color: #A26E7B;
     color: #FEFBE9;
-    border-radius: 3px;
+
 }
+
+.remove-btn {
+    width: 20px; 
+    height: 20px; 
+    cursor: pointer;
+}
+
+
+
 
