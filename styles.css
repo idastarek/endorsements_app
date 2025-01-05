@@ -49,16 +49,6 @@ h1 {
     padding: 5px;
 }
 
-#from-to-container {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-bottom: 15px;
-}
-
-.textarea-from-to {
-    width: 48%;
-}
 
 #publish-btn {
     padding: 10px 50px;
