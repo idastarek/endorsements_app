@@ -4,6 +4,7 @@
 
 html, body {
     margin: 0;
+    height: 100%;
 }
 
 #main-container {
@@ -11,7 +12,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 90%; */
+    min-height: 100vh;
 }
 
 #kudos-container {
@@ -42,10 +43,21 @@ h1 {
 }
 
 #textarea {
-    /* border: 2px solid black; */
     width: 90%;
     min-height: 70px;
     margin: 1.6rem auto;
+    padding: 5px;
+}
+
+#from-to-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.textarea-from-to {
+    width: 48%;
 }
 
 #publish-btn {
@@ -67,6 +79,7 @@ h1 {
     background-color: #F9A9BC;
     width: 100%;
     text-align: center;
+    flex-grow: 1;
 }
 
 h2 {
