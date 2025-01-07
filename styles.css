@@ -15,23 +15,27 @@ html, body {
     min-height: 100vh;
 }
 
+/* top part of the screen */
 #kudos-container {
     background-color: #FEFBE9;
     text-align: center;
     width: 100%;
 }
 
+/* top screen image */
 #kudos-medal-img {
     width: 110px;
     margin-top: 3rem; 
 }
 
+/* title */
 h1 {
     font-family: "Agu Display", serif;
     font-weight: 500;
     font-size: 2.5rem;
 }
 
+/* middle part of the screen */
 #text-publish-area {
     display: flex;
     flex-direction: column;
@@ -63,6 +67,7 @@ h1 {
     justify-content: center;
 }
 
+/* bottom part of the screen */
 #endoresements-area {
     display: flex;
     flex-direction: column;
@@ -98,8 +103,6 @@ h2 {
 }
 
 .endorsement {
-    /* display: flex;
-    flex-wrap: wrap; */
     font-family: "Inter", serif;
     font-weight: 300;
     padding: 15px 20px 15px 100px;
